@@ -1,0 +1,124 @@
+/*---------------------------------------------*/
+/* BASIC SETUP FOR OpenMarketsGroup */
+/*---------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #13111b;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; /* make font rendring in a perfect way */
+}
+
+/*---------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------*/
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.header {
+  background-color: #006a45;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+.header h4 {
+  color: white;
+  background-color: #006a45;
+  text-align: center;
+  border: white dashed 1px;
+  padding: 80px;
+  font-weight: 300;
+  font-size: xx-large;
+}
+
+/*---------------------------------------------*/
+/* CARDS */
+/*---------------------------------------------*/
+.cards {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.card {
+  display: grid;
+  background-color: #d8d8d8;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.card img {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 18vh;
+}
+
+button {
+  background-color: #2b3744;
+  color: white;
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+h5 {
+  padding: 15px 0px;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+p {
+  padding: 15px 0px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: medium;
+}
+
+/*---------------------------------------------*/
+/* MEDIA QUERIES */
+/*---------------------------------------------*/
+/* Tablets: from 600px to 800px */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop: 800px or more*/
+@media (min-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*---------------------------------------------*/
+/* Animations */
+/*---------------------------------------------*/
+/* Quick-zoom Container */
+.inner-img {
+  transition: 0.3s;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+}

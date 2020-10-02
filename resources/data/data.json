@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Dresser",
+        "price": 500.90,
+        "image": "dresser.png"
+    },
+    {
+        "title": "Setee",
+        "price": 820.00,
+        "image": "setee.png"
+    },
+    {
+        "title": "Couch",
+        "price": 705.00,
+        "image": "couch.png"
+    },
+    {
+        "title": "Chair",
+        "price": 20.5589,
+        "image": "chair.png"
+    },
+    {
+        "title": "Desk",
+        "price": 522.65112,
+        "image": "desk.png"
+    },
+    {
+        "title": "Lamp",
+        "price": 19.95,
+        "image": "lamp.png"
+    },
+    {
+        "title": "Table",
+        "price": 1056.99,
+        "image": "table.png"
+    }
+]
