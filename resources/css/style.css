@@ -116,9 +116,18 @@ p {
   transform: scale(1.1);
 }
 
-/* Other styling elements, that are not necessary for the example */
-
-.img-wrapper {
-  display: inline-block;
-  box-sizing: border-box;
+/* Loading */
+#cover {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #141526;
+  z-index: 9999;
+  font-size: 65px;
+  text-align: center;
+  padding-top: 200px;
+  color: #fff;
+  font-family: tahoma;
 }
