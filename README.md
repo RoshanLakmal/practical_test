@@ -7,4 +7,4 @@
 - Download the Live Server extension from the market place (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - Launch a local development server with live
 
-## Live URL - [OpenMarketsGroup Test] (https://roshanlakmal.github.io/practical_developer_test/)
+## Live URL - [OpenMarketsGroup Test] (https://roshanlakmal.github.io/practical_test/)
