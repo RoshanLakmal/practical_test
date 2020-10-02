@@ -32,7 +32,7 @@ $(document).ready(function () {
   /*  End Render Card List */
 
   /* Loading Animation*/
-  $(window).on("load", function () {
-    $("#cover").fadeOut(1750);
-  });
+  //   $(window).on("load", function () {
+  //     $("#cover").fadeOut(1750);
+  //   });
 });
