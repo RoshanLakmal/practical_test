@@ -1,6 +1,5 @@
 $(document).ready(function () {
   console.log("OpenMarketsGroup");
-  // let url = "http://roshan.com.au/data.json";
   let url = "https://roshanlakmal.github.io/test/data.json";
   /*  Render Card List */
   //Get JSON data from data.json
