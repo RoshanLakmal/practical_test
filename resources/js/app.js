@@ -1,7 +1,7 @@
 $(document).ready(function () {
   console.log("OpenMarketsGroup");
+  // let url = "http://roshan.com.au/data.json";
   let url = "https://roshanlakmal.github.io/test/data.json";
-
   /*  Render Card List */
   //Get JSON data from data.json
   $.getJSON(url, function (data) {
@@ -32,7 +32,7 @@ $(document).ready(function () {
   /*  End Render Card List */
 
   /* Loading Animation*/
-  //   $(window).on("load", function () {
-  //     $("#cover").fadeOut(1750);
-  //   });
+  $(window).on("load", function () {
+    $("#cover").fadeOut(1750);
+  });
 });
