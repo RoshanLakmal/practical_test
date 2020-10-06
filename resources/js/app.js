@@ -19,8 +19,12 @@ $(document).ready(function () {
           value.title +
           "</h5>" +
           "<p class='item-price'>" +
-          value.price +
+          "$" +
+          value.price.toFixed(2) +
           "</p>" +
+          "<button>"+
+          "BUY NOW" +
+          "</button>"+
           "</div>"
       );
     });
